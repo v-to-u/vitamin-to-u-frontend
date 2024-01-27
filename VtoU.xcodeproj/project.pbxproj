@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CEDB254B9E72319088C789D /* Pods_VtoU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5712AFEB68EE8B072957E7 /* Pods_VtoU.framework */; };
 		CE99B9732B65183C00314973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99B9722B65183C00314973 /* AppDelegate.swift */; };
 		CE99B9752B65183C00314973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99B9742B65183C00314973 /* SceneDelegate.swift */; };
 		CE99B9772B65183C00314973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99B9762B65183C00314973 /* ViewController.swift */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5712AFEB68EE8B072957E7 /* Pods_VtoU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VtoU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9237D4168058AC147531D62 /* Pods-VtoU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VtoU.debug.xcconfig"; path = "Target Support Files/Pods-VtoU/Pods-VtoU.debug.xcconfig"; sourceTree = "<group>"; };
 		CE99B96F2B65183C00314973 /* VtoU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VtoU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE99B9722B65183C00314973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE99B9742B65183C00314973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		CE99B98F2B65183C00314973 /* VtoUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VtoUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE99B9932B65183C00314973 /* VtoUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VtoUUITests.swift; sourceTree = "<group>"; };
 		CE99B9952B65183C00314973 /* VtoUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VtoUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9A873E5549443001CC3CA42 /* Pods-VtoU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VtoU.release.xcconfig"; path = "Target Support Files/Pods-VtoU/Pods-VtoU.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEDB254B9E72319088C789D /* Pods_VtoU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1CCD2354DF646605730E9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9237D4168058AC147531D62 /* Pods-VtoU.debug.xcconfig */,
+				F9A873E5549443001CC3CA42 /* Pods-VtoU.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA7A858CB6A48F66B6A13FE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5712AFEB68EE8B072957E7 /* Pods_VtoU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE99B9662B65183B00314973 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				CE99B9882B65183C00314973 /* VtoUTests */,
 				CE99B9922B65183C00314973 /* VtoUUITests */,
 				CE99B9702B65183C00314973 /* Products */,
+				0F1CCD2354DF646605730E9B /* Pods */,
+				BA7A858CB6A48F66B6A13FE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE99B9992B65183C00314973 /* Build configuration list for PBXNativeTarget "VtoU" */;
 			buildPhases = (
+				1D21F69F3DBC0935DC439D36 /* [CP] Check Pods Manifest.lock */,
 				CE99B96B2B65183C00314973 /* Sources */,
 				CE99B96C2B65183C00314973 /* Frameworks */,
 				CE99B96D2B65183C00314973 /* Resources */,
+				B0E69CC0C860B13C190343B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D21F69F3DBC0935DC439D36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VtoU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0E69CC0C860B13C190343B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VtoU/Pods-VtoU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VtoU/Pods-VtoU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VtoU/Pods-VtoU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE99B96B2B65183C00314973 /* Sources */ = {
@@ -437,6 +506,7 @@
 		};
 		CE99B99A2B65183C00314973 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9237D4168058AC147531D62 /* Pods-VtoU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +536,7 @@
 		};
 		CE99B99B2B65183C00314973 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A873E5549443001CC3CA42 /* Pods-VtoU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
