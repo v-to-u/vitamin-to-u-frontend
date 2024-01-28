@@ -16,9 +16,6 @@ target 'VtoU' do
   # SwiftyJSON
   pod 'SwiftyJSON'
 
-  # ProgressHUD
-  pod 'ProgressHUD'
-
   #TextFieldEffects
   pod 'TextFieldEffects'
 
