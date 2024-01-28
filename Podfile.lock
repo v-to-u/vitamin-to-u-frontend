@@ -1,6 +1,5 @@
 PODS:
   - Alamofire (5.8.1)
-  - DZNEmptyDataSet (1.8.1)
   - EFCountingLabel (5.1.5)
   - FontAwesomeKit (2.2.1):
     - FontAwesomeKit/Core (= 2.2.1)
@@ -23,8 +22,6 @@ PODS:
     - FontAwesomeKit/Core
   - FontAwesomeKit/Zocial (2.2.1):
     - FontAwesomeKit/Core
-  - Hero (1.6.2)
-  - lottie-ios (4.4.0)
   - ObjectMapper (3.5.3)
   - ProgressHUD (14.1.0)
   - Realm (10.44.0):
@@ -41,11 +38,8 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - DZNEmptyDataSet
   - EFCountingLabel
   - FontAwesomeKit (~> 2.2.0)
-  - Hero
-  - lottie-ios
   - ObjectMapper (~> 3.5)
   - ProgressHUD
   - RealmSwift
@@ -57,11 +51,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
-    - DZNEmptyDataSet
     - EFCountingLabel
     - FontAwesomeKit
-    - Hero
-    - lottie-ios
     - ObjectMapper
     - ProgressHUD
     - Realm
@@ -73,11 +64,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
-  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   EFCountingLabel: d2e259de6ffa896cb9c325e14d5be1fccf8bfa7f
   FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
-  Hero: c69009dbc9e2f0472e081adc644dba05fcedae72
-  lottie-ios: ef1be1f90d54255f08e09d767950e43714661178
   ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
   ProgressHUD: c4a55f108815c46a6bf082407d2f806840b7a869
   Realm: 0419a32457873acb720df25bf1d658df36967cf2
@@ -87,6 +75,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 3b4785f4d25e313cbf116730580b71270345f08d
+PODFILE CHECKSUM: d566040199fef63cfb4f3ff8513156d8928ff65d
 
 COCOAPODS: 1.13.0
