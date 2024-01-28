@@ -19,6 +19,6 @@ jobs:
     - name: Build Xcode
       run: |
         pod install
-        xcodebuild clean test -workspace VtoU/VtoU.xcworkspace \
+        xcodebuild clean test -workspace VtoU.xcworkspace \
         -scheme VtoU \
         -destination 'platform=iOS Simulator,name=iPhone 13,OS=latest'
