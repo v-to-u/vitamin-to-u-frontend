@@ -16,18 +16,6 @@ target 'VtoU' do
   # SwiftyJSON
   pod 'SwiftyJSON'
 
-  # ProgressHUD
-  pod 'ProgressHUD'
-
-  # ObjectMapper
-  pod 'ObjectMapper', '~> 3.5'
-
-  # SnapKit
-  pod 'SnapKit'
-
-  # DZNEmptyDataSet
-  pod 'DZNEmptyDataSet'
-
   #TextFieldEffects
   pod 'TextFieldEffects'
 
@@ -36,14 +24,5 @@ target 'VtoU' do
 
   #EFCountingLabel
   pod 'EFCountingLabel'
-
-  #Hero
-  pod 'Hero'
-
-  #FontAwesomeKit
-  pod 'FontAwesomeKit', '~> 2.2.0'
-
-  #LottieforiOS
-  pod 'lottie-ios'
 
 end
