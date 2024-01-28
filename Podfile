@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '16.0'
+# platform :ios, '9.0'
 
 target 'VtoU' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -19,12 +19,6 @@ target 'VtoU' do
   # ProgressHUD
   pod 'ProgressHUD'
 
-  # ObjectMapper
-  pod 'ObjectMapper', '~> 3.5'
-
-  # SnapKit
-  pod 'SnapKit'
-
   #TextFieldEffects
   pod 'TextFieldEffects'
 
@@ -33,8 +27,5 @@ target 'VtoU' do
 
   #EFCountingLabel
   pod 'EFCountingLabel'
-
-  #FontAwesomeKit
-  pod 'FontAwesomeKit', '~> 2.2.0'
 
 end

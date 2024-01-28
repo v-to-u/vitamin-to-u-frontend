@@ -1,10 +1,4 @@
-# ‼️ Is there a reason you haven't starred this repo yet?
-
-Either let me know why, or go ahead and hit that star button now! 😃🌟🙏
-
----
-
-<img src="https://related.chat/hud/001.gif" width="80"> <img src="https://related.chat/hud/002.gif" width="80"> <img src="https://related.chat/hud/003.gif" width="80"> <img src="https://related.chat/hud/004.gif" width="80"> <img src="https://related.chat/hud/005.gif" width="80"> <img src="https://related.chat/hud/006.gif" width="80"> <img src="https://related.chat/hud/007.gif" width="80"> <img src="https://related.chat/hud/008.gif" width="80"> <img src="https://related.chat/hud/009.gif" width="80"> <img src="https://related.chat/hud/010.gif" width="80"> <img src="https://related.chat/hud/011.gif" width="80"> <img src="https://related.chat/hud/011.png" width="80"> <img src="https://related.chat/hud/012.gif" width="80"> <img src="https://related.chat/hud/012.png" width="80"> <img src="https://related.chat/hud/013.gif" width="80"> <img src="https://related.chat/hud/013.png" width="80"> <img src="https://related.chat/hud/014.gif" width="80"> <img src="https://related.chat/hud/014.png" width="80"> <img src="https://related.chat/hud/015.gif" width="80"> <img src="https://related.chat/hud/015.png" width="80">
+<img src="https://rel.codes/hud/101.gif" width="80"> <img src="https://rel.codes/hud/001.gif" width="80"> <img src="https://rel.codes/hud/002.gif" width="80"> <img src="https://rel.codes/hud/003.gif" width="80"> <img src="https://rel.codes/hud/004.gif" width="80"> <img src="https://rel.codes/hud/005.gif" width="80"> <img src="https://rel.codes/hud/006.gif" width="80"> <img src="https://rel.codes/hud/007.gif" width="80"> <img src="https://rel.codes/hud/008.gif" width="80"> <img src="https://rel.codes/hud/009.gif" width="80"> <img src="https://rel.codes/hud/010.gif" width="80"> <img src="https://rel.codes/hud/011.gif" width="80"> <img src="https://rel.codes/hud/012.gif" width="80"> <img src="https://rel.codes/hud/013.gif" width="80"> <img src="https://rel.codes/hud/014.gif" width="80"> <img src="https://rel.codes/hud/015.gif" width="80"> <img src="https://rel.codes/hud/016.gif" width="80"> <img src="https://rel.codes/hud/017.gif" width="80"> <img src="https://rel.codes/hud/018.gif" width="80"> <img src="https://rel.codes/hud/019.gif" width="80"> <img src="https://rel.codes/hud/020.gif" width="80"> <img src="https://rel.codes/hud/021.gif" width="80"> <img src="https://rel.codes/hud/102.gif" width="80"> <img src="https://rel.codes/hud/103.gif" width="80"> <img src="https://rel.codes/hud/104.gif" width="80"> <img src="https://rel.codes/hud/202.gif" width="80"> <img src="https://rel.codes/hud/203.gif" width="80"> <img src="https://rel.codes/hud/204.gif" width="80"> <img src="https://rel.codes/hud/205.gif" width="80"> <img src="https://rel.codes/hud/206.gif" width="80"> <img src="https://rel.codes/hud/207.gif" width="80"> <img src="https://rel.codes/hud/208.gif" width="80"> <img src="https://rel.codes/hud/209.gif" width="80"> <img src="https://rel.codes/hud/210.gif" width="80"> <img src="https://rel.codes/hud/211.gif" width="80"> 
 
 ## WHAT'S NEW
 
@@ -15,6 +9,8 @@ For detailed changes, please refer to the [Change log](CHANGELOG.md).
 **ProgressHUD** is a convenient and intuitive HUD tool designed specifically for iOS. It enables seamless presentation of concise alerts or notifications to users of your app in a simple and non-disruptive way.
 
 ## INSTALLATION
+
+‼️ In case you're using Xcode 14.3.1 or an earlier version, stick with [13.8.6](https://github.com/relatedcode/ProgressHUD/releases/tag/13.8.6) ‼️
 
 ### CocoaPods
 
@@ -110,6 +106,7 @@ ProgressHUD.remove()
 ## REQUIREMENTS
 
 - iOS 13.0+
+- Xcode 15.0+
 
 ## CUSTOMIZATION
 
@@ -194,7 +191,7 @@ public enum LiveIcon {
 
 MIT License
 
-Copyright (c) 2023 Related Code
+Copyright (c) 2024 Related Code
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
