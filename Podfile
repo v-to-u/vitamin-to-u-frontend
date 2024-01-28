@@ -25,9 +25,6 @@ target 'VtoU' do
   # SnapKit
   pod 'SnapKit'
 
-  # DZNEmptyDataSet
-  pod 'DZNEmptyDataSet'
-
   #TextFieldEffects
   pod 'TextFieldEffects'
 
@@ -37,13 +34,7 @@ target 'VtoU' do
   #EFCountingLabel
   pod 'EFCountingLabel'
 
-  #Hero
-  pod 'Hero'
-
   #FontAwesomeKit
   pod 'FontAwesomeKit', '~> 2.2.0'
-
-  #LottieforiOS
-  pod 'lottie-ios'
 
 end
