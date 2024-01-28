@@ -19,4 +19,4 @@ jobs:
     - name: Build Xcode
       run: |
         pod install
-        xcodebuild clean test -workspace VtoU.xcworkspace -scheme VtoU -destination "platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device"
+        xcodebuild clean test -workspace VtoU.xcworkspace -scheme VtoU -destination "platform:iOS Simulator, OS:16.0, name:iPhone 14 Pro"
