@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lqZ-7R-ie4">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MedicinePageViewController-->
+        <scene sceneID="Ns0-BK-9FX">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MedicinePageViewController" storyboardName="MedicinePageViewController" referencedIdentifier="MedicinePageViewController" id="vov-ms-i8T" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Medicine" image="pill.fill" catalog="system" id="RtO-6i-LIp"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ylc-Qa-EN2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1891" y="-924"/>
+        </scene>
+        <!--MapPageViewController-->
+        <scene sceneID="wZj-ds-Q40">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MapPageViewController" storyboardName="MapPageViewController" referencedIdentifier="MapPageViewController" id="06q-T0-gE4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="map.fill" catalog="system" id="3EU-Nc-p2P"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GVJ-Rz-igg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1891" y="-742"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="T07-MY-MgJ">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" id="lqZ-7R-ie4" customClass="TabBarController" customModule="VtoU" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4ap-Yx-4pa">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vov-ms-i8T" kind="relationship" relationship="viewControllers" id="4lk-bE-NCt"/>
+                        <segue destination="06q-T0-gE4" kind="relationship" relationship="viewControllers" id="SdO-6Z-fCY"/>
+                        <segue destination="5Qy-3n-uSg" kind="relationship" relationship="viewControllers" id="MLh-Xh-249"/>
+                        <segue destination="cFG-vv-e0T" kind="relationship" relationship="viewControllers" id="b9T-sQ-ba4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UVM-lJ-ZeE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1115" y="-670"/>
+        </scene>
+        <!--AlarmPageViewController-->
+        <scene sceneID="SAp-Sq-Hgb">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="AlarmPageViewController" storyboardName="AlarmPageViewController" referencedIdentifier="AlarmPageViewController" id="5Qy-3n-uSg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Alarm" image="alarm.fill" catalog="system" id="k69-Iy-Z76"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p8F-8a-4NO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1890" y="-577"/>
+        </scene>
+        <!--ProfilePageViewController-->
+        <scene sceneID="Scu-6O-noq">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ProfilePageViewController" storyboardName="ProfilePageViewController" referencedIdentifier="ProfilePageViewController" id="cFG-vv-e0T" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="CYD-yI-bQL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X0b-CW-EaZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1890" y="-421"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="alarm.fill" catalog="system" width="123" height="128"/>
+        <image name="map.fill" catalog="system" width="128" height="110"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="pill.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
