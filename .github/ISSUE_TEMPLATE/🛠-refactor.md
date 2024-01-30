@@ -1,7 +1,7 @@
 ---
-name: "[\U0001F6E0 Refactor]"
+name: "\U0001F6E0 Refactor"
 about: 코드 리팩토링을 진행합니다.
-title: "\U0001F6E0 REFACT"
+title: "[\U0001F6E0 REFACT]"
 labels: ''
 assignees: ''
 
