@@ -1,5 +1,5 @@
 ---
-name: "\U0001F4A1 Feature"
+name: "[\U0001F4A1 Feature]"
 about: 기능 설명 및 구현입니다.
 title: "\U0001F4A1 FEAT"
 labels: enhancement

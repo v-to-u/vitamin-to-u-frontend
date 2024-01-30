@@ -1,5 +1,5 @@
 ---
-name: "\U0001F41E Bug report"
+name: "[\U0001F41E Bug report]"
 about: 버그 설명 및 수정을 진행합니다.
 title: "\U0001F41E Bug"
 labels: bug
