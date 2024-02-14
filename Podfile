@@ -25,4 +25,7 @@ target 'VtoU' do
   #EFCountingLabel
   pod 'EFCountingLabel'
 
+  #FSCalendar
+  pod 'FSCalendar'
+
 end
