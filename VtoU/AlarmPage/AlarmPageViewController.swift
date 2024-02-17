@@ -28,10 +28,10 @@ class AlarmPageViewController: UIViewController {
     
     @IBOutlet weak var PillView: UITableView!
     
-    let time = ["08:00", "12:00", "18:00"]
-    let name = ["비타민C","판콜","오메가3"]
-    let how = ["식후 복용","식후 복용","식후 복용"]
-    let much = ["2정","1포","1정"]
+    let time = ["08:00", "12:00", "18:00","20:00"]
+    let name = ["비타민C","판콜","오메가3","타이레놀"]
+    let how = ["식후 복용","식후 복용","식후 복용","복용"]
+    let much = ["2정","1포","1정","1정"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +41,7 @@ class AlarmPageViewController: UIViewController {
         PillView.estimatedRowHeight = 500
         
     }
+
     
 }
 

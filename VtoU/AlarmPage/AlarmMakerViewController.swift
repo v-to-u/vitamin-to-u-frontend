@@ -10,10 +10,17 @@ import UIKit
 
 class AlarmMakerViewController: UIViewController {
 
+    @IBOutlet weak var done: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        // Initial
+
+        
     }
+    
+    @IBAction func donebtn(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     
 }

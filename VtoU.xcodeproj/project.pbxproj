@@ -21,6 +21,7 @@
 		CE3508032B690A9F007FE913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3508022B690A9F007FE913 /* Main.storyboard */; };
 		CE3508052B690AA4007FE913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3508042B690AA4007FE913 /* ViewController.swift */; };
 		CE9269202B7E34D20039A927 /* ProtoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92691F2B7E34D20039A927 /* ProtoTableViewCell.swift */; };
+		CE9269242B80A09F0039A927 /* AlarmMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9269232B80A09F0039A927 /* AlarmMakerViewController.swift */; };
 		CE99B9732B65183C00314973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99B9722B65183C00314973 /* AppDelegate.swift */; };
 		CE99B9752B65183C00314973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99B9742B65183C00314973 /* SceneDelegate.swift */; };
 		CE99B97C2B65183C00314973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE99B97B2B65183C00314973 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		CE3508022B690A9F007FE913 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CE3508042B690AA4007FE913 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE92691F2B7E34D20039A927 /* ProtoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoTableViewCell.swift; sourceTree = "<group>"; };
+		CE9269232B80A09F0039A927 /* AlarmMakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmMakerViewController.swift; sourceTree = "<group>"; };
 		CE99B96F2B65183C00314973 /* VtoU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VtoU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE99B9722B65183C00314973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE99B9742B65183C00314973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				CE3507ED2B679A15007FE913 /* AlarmPageViewController.swift */,
 				CE3507EF2B679A30007FE913 /* AlarmPageViewController.storyboard */,
 				CE92691F2B7E34D20039A927 /* ProtoTableViewCell.swift */,
+				CE9269232B80A09F0039A927 /* AlarmMakerViewController.swift */,
 			);
 			path = AlarmPage;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				CE3507FF2B6904CB007FE913 /* TabBarController.swift in Sources */,
 				CE3507F62B68F9CA007FE913 /* MapPageViewController.swift in Sources */,
 				CE3507EE2B679A15007FE913 /* AlarmPageViewController.swift in Sources */,
+				CE9269242B80A09F0039A927 /* AlarmMakerViewController.swift in Sources */,
 				CE3507FA2B68F9E5007FE913 /* MedicinePageViewController.swift in Sources */,
 				CE99B9732B65183C00314973 /* AppDelegate.swift in Sources */,
 				CE3508052B690AA4007FE913 /* ViewController.swift in Sources */,
