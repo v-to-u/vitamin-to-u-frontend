@@ -1,11 +1,11 @@
 PODS:
   - Alamofire (5.8.1)
   - EFCountingLabel (5.1.5)
-  - Realm (10.46.0):
-    - Realm/Headers (= 10.46.0)
-  - Realm/Headers (10.46.0)
-  - RealmSwift (10.46.0):
-    - Realm (= 10.46.0)
+  - Realm (10.47.0):
+    - Realm/Headers (= 10.47.0)
+  - Realm/Headers (10.47.0)
+  - RealmSwift (10.47.0):
+    - Realm (= 10.47.0)
   - SVProgressHUD (2.3.1):
     - SVProgressHUD/Core (= 2.3.1)
   - SVProgressHUD/Core (2.3.1)
@@ -33,12 +33,12 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   EFCountingLabel: d2e259de6ffa896cb9c325e14d5be1fccf8bfa7f
-  Realm: 699b80d8e5fc66acafd2d530199e77781a2d69d3
-  RealmSwift: 3230b8fc63759433a6938a0dd2a5dc0dc2b15760
+  Realm: e43fb540ae947497e3ea8a662443256920602060
+  RealmSwift: 8b06ed06b5d16749ae0c4d91c0cba414a9e28189
   SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
 
-PODFILE CHECKSUM: 26d5cc0e2bff860e7ffb729611c1f19c27573e9a
+PODFILE CHECKSUM: edfe7e29bb42ec5df405af11ce7093c898606572
 
 COCOAPODS: 1.13.0

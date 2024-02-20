@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////
 //
-// Copyright 2016 Realm Inc.
+// Copyright 2023 Realm Inc.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -16,28 +16,16 @@
 //
 ////////////////////////////////////////////////////////////////////////////
 
-#import "RLMUser_Private.h"
+#import <Realm/RLMGeospatial.h>
 
-#import "RLMSyncConfiguration.h"
-
-#import <realm/object-store/sync/sync_user.hpp>
-#import <realm/sync/config.hpp>
-
-@class RLMSyncConfiguration, RLMApp;
+namespace realm {
+class Geospatial;
+}
 
 RLM_HEADER_AUDIT_BEGIN(nullability, sendability)
 
-@interface RLMUser ()
-- (instancetype)initWithUser:(std::shared_ptr<realm::SyncUser>)user app:(RLMApp *)app;
-- (std::string)pathForPartitionValue:(std::string const&)partitionValue;
-- (std::string)pathForFlexibleSync;
-- (std::shared_ptr<realm::SyncUser>)_syncUser;
-@property (weak, readonly) RLMApp *app;
-
-@end
-
-@interface RLMUserProfile ()
-- (instancetype)initWithUserProfile:(realm::SyncUserProfile)userProfile;
+@protocol RLMGeospatial_Private <NSObject>
+- (realm::Geospatial)geoSpatial;
 @end
 
 RLM_HEADER_AUDIT_END(nullability, sendability)

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CEDB254B9E72319088C789D /* Pods_VtoU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5712AFEB68EE8B072957E7 /* Pods_VtoU.framework */; };
+		CE12B2D62B822D1C00662411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE12B2D52B822D1C00662411 /* Main.storyboard */; };
 		CE3507EE2B679A15007FE913 /* AlarmPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3507ED2B679A15007FE913 /* AlarmPageViewController.swift */; };
 		CE3507F02B679A30007FE913 /* AlarmPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3507EF2B679A30007FE913 /* AlarmPageViewController.storyboard */; };
 		CE3507F22B68F9A5007FE913 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3507F12B68F9A5007FE913 /* ProfilePageViewController.swift */; };
@@ -18,8 +18,14 @@
 		CE3507FC2B68F9F1007FE913 /* MedicinePageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3507FB2B68F9F1007FE913 /* MedicinePageViewController.storyboard */; };
 		CE3507FF2B6904CB007FE913 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3507FE2B6904CB007FE913 /* TabBarController.swift */; };
 		CE3508012B690557007FE913 /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3508002B690557007FE913 /* TabBarController.storyboard */; };
-		CE3508032B690A9F007FE913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3508022B690A9F007FE913 /* Main.storyboard */; };
 		CE3508052B690AA4007FE913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3508042B690AA4007FE913 /* ViewController.swift */; };
+		CE4FF16F2B8240A600313C8A /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = CE4FF16E2B8240A600313C8A /* GoogleMaps */; };
+		CE4FF1712B8240A600313C8A /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = CE4FF1702B8240A600313C8A /* GoogleMapsBase */; };
+		CE4FF1732B8240A600313C8A /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = CE4FF1722B8240A600313C8A /* GoogleMapsCore */; };
+		CE4FF1752B8240A600313C8A /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = CE4FF1742B8240A600313C8A /* GoogleMapsM4B */; };
+		CE4FF1772B8240BF00313C8A /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = CE4FF1762B8240BF00313C8A /* GooglePlaces */; };
+		CE9269202B7E34D20039A927 /* ProtoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92691F2B7E34D20039A927 /* ProtoTableViewCell.swift */; };
+		CE9269242B80A09F0039A927 /* AlarmMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9269232B80A09F0039A927 /* AlarmMakerViewController.swift */; };
 		CE99B9732B65183C00314973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99B9722B65183C00314973 /* AppDelegate.swift */; };
 		CE99B9752B65183C00314973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99B9742B65183C00314973 /* SceneDelegate.swift */; };
 		CE99B97C2B65183C00314973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE99B97B2B65183C00314973 /* Assets.xcassets */; };
@@ -47,8 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A5712AFEB68EE8B072957E7 /* Pods_VtoU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VtoU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9237D4168058AC147531D62 /* Pods-VtoU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VtoU.debug.xcconfig"; path = "Target Support Files/Pods-VtoU/Pods-VtoU.debug.xcconfig"; sourceTree = "<group>"; };
+		CE12B2D52B822D1C00662411 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CE3507ED2B679A15007FE913 /* AlarmPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPageViewController.swift; sourceTree = "<group>"; };
 		CE3507EF2B679A30007FE913 /* AlarmPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlarmPageViewController.storyboard; sourceTree = "<group>"; };
 		CE3507F12B68F9A5007FE913 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
@@ -59,8 +65,9 @@
 		CE3507FB2B68F9F1007FE913 /* MedicinePageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MedicinePageViewController.storyboard; sourceTree = "<group>"; };
 		CE3507FE2B6904CB007FE913 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		CE3508002B690557007FE913 /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
-		CE3508022B690A9F007FE913 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CE3508042B690AA4007FE913 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE92691F2B7E34D20039A927 /* ProtoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoTableViewCell.swift; sourceTree = "<group>"; };
+		CE9269232B80A09F0039A927 /* AlarmMakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmMakerViewController.swift; sourceTree = "<group>"; };
 		CE99B96F2B65183C00314973 /* VtoU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VtoU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE99B9722B65183C00314973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE99B9742B65183C00314973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,7 +87,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CEDB254B9E72319088C789D /* Pods_VtoU.framework in Frameworks */,
+				CE4FF1712B8240A600313C8A /* GoogleMapsBase in Frameworks */,
+				CE4FF1732B8240A600313C8A /* GoogleMapsCore in Frameworks */,
+				CE4FF16F2B8240A600313C8A /* GoogleMaps in Frameworks */,
+				CE4FF1772B8240BF00313C8A /* GooglePlaces in Frameworks */,
+				CE4FF1752B8240A600313C8A /* GoogleMapsM4B in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +124,6 @@
 		BA7A858CB6A48F66B6A13FE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A5712AFEB68EE8B072957E7 /* Pods_VtoU.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,6 +133,8 @@
 			children = (
 				CE3507ED2B679A15007FE913 /* AlarmPageViewController.swift */,
 				CE3507EF2B679A30007FE913 /* AlarmPageViewController.storyboard */,
+				CE92691F2B7E34D20039A927 /* ProtoTableViewCell.swift */,
+				CE9269232B80A09F0039A927 /* AlarmMakerViewController.swift */,
 			);
 			path = AlarmPage;
 			sourceTree = "<group>";
@@ -196,7 +208,7 @@
 				CE99B9722B65183C00314973 /* AppDelegate.swift */,
 				CE99B9742B65183C00314973 /* SceneDelegate.swift */,
 				CE3508042B690AA4007FE913 /* ViewController.swift */,
-				CE3508022B690A9F007FE913 /* Main.storyboard */,
+				CE12B2D52B822D1C00662411 /* Main.storyboard */,
 				CE99B97B2B65183C00314973 /* Assets.xcassets */,
 				CE99B97D2B65183C00314973 /* LaunchScreen.storyboard */,
 				CE99B9802B65183C00314973 /* Info.plist */,
@@ -239,6 +251,13 @@
 			dependencies = (
 			);
 			name = VtoU;
+			packageProductDependencies = (
+				CE4FF16E2B8240A600313C8A /* GoogleMaps */,
+				CE4FF1702B8240A600313C8A /* GoogleMapsBase */,
+				CE4FF1722B8240A600313C8A /* GoogleMapsCore */,
+				CE4FF1742B8240A600313C8A /* GoogleMapsM4B */,
+				CE4FF1762B8240BF00313C8A /* GooglePlaces */,
+			);
 			productName = VtoU;
 			productReference = CE99B96F2B65183C00314973 /* VtoU.app */;
 			productType = "com.apple.product-type.application";
@@ -311,6 +330,10 @@
 				Base,
 			);
 			mainGroup = CE99B9662B65183B00314973;
+			packageReferences = (
+				CE4FF16C2B823F8600313C8A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				CE4FF16D2B823FAD00313C8A /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
 			productRefGroup = CE99B9702B65183C00314973 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -330,7 +353,7 @@
 				CE99B97F2B65183C00314973 /* LaunchScreen.storyboard in Resources */,
 				CE99B97C2B65183C00314973 /* Assets.xcassets in Resources */,
 				CE3508012B690557007FE913 /* TabBarController.storyboard in Resources */,
-				CE3508032B690A9F007FE913 /* Main.storyboard in Resources */,
+				CE12B2D62B822D1C00662411 /* Main.storyboard in Resources */,
 				CE3507F82B68F9D4007FE913 /* MapPageViewController.storyboard in Resources */,
 				CE3507F02B679A30007FE913 /* AlarmPageViewController.storyboard in Resources */,
 				CE3507F42B68F9B8007FE913 /* ProfilePageViewController.storyboard in Resources */,
@@ -402,9 +425,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3507F22B68F9A5007FE913 /* ProfilePageViewController.swift in Sources */,
+				CE9269202B7E34D20039A927 /* ProtoTableViewCell.swift in Sources */,
 				CE3507FF2B6904CB007FE913 /* TabBarController.swift in Sources */,
 				CE3507F62B68F9CA007FE913 /* MapPageViewController.swift in Sources */,
 				CE3507EE2B679A15007FE913 /* AlarmPageViewController.swift in Sources */,
+				CE9269242B80A09F0039A927 /* AlarmMakerViewController.swift in Sources */,
 				CE3507FA2B68F9E5007FE913 /* MedicinePageViewController.swift in Sources */,
 				CE99B9732B65183C00314973 /* AppDelegate.swift in Sources */,
 				CE3508052B690AA4007FE913 /* ViewController.swift in Sources */,
@@ -494,6 +519,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -557,6 +583,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -584,6 +611,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EFCountingLabel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TextFieldEffects\"",
+					"\"${PODS_ROOT}/Realm/core\"",
+					"$(SDKROOT)/usr/lib/swift/arm64",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VtoU/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -614,6 +653,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EFCountingLabel\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Realm\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RealmSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TextFieldEffects\"",
+					"\"${PODS_ROOT}/Realm/core\"",
+					"$(SDKROOT)/usr/lib/swift/arm64",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VtoU/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -751,6 +802,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE4FF16C2B823F8600313C8A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		CE4FF16D2B823FAD00313C8A /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE4FF16E2B8240A600313C8A /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4FF16C2B823F8600313C8A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		CE4FF1702B8240A600313C8A /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4FF16C2B823F8600313C8A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		CE4FF1722B8240A600313C8A /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4FF16C2B823F8600313C8A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		CE4FF1742B8240A600313C8A /* GoogleMapsM4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4FF16C2B823F8600313C8A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsM4B;
+		};
+		CE4FF1762B8240BF00313C8A /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE4FF16D2B823FAD00313C8A /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE99B9672B65183B00314973 /* Project object */;
 }
