@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96261EB52B848DD500BE5610 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96261EB42B848DD500BE5610 /* CategoryViewController.swift */; };
+		96261EB72B848DF400BE5610 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96261EB62B848DF400BE5610 /* CategoryCollectionViewCell.swift */; };
 		CE12B2D62B822D1C00662411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE12B2D52B822D1C00662411 /* Main.storyboard */; };
 		CE3507EE2B679A15007FE913 /* AlarmPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3507ED2B679A15007FE913 /* AlarmPageViewController.swift */; };
 		CE3507F02B679A30007FE913 /* AlarmPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3507EF2B679A30007FE913 /* AlarmPageViewController.storyboard */; };
@@ -53,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96261EB42B848DD500BE5610 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		96261EB62B848DF400BE5610 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		C9237D4168058AC147531D62 /* Pods-VtoU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VtoU.debug.xcconfig"; path = "Target Support Files/Pods-VtoU/Pods-VtoU.debug.xcconfig"; sourceTree = "<group>"; };
 		CE12B2D52B822D1C00662411 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CE3507ED2B679A15007FE913 /* AlarmPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPageViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 			children = (
 				CE3507F92B68F9E5007FE913 /* MedicinePageViewController.swift */,
 				CE3507FB2B68F9F1007FE913 /* MedicinePageViewController.storyboard */,
+				96261EB42B848DD500BE5610 /* CategoryViewController.swift */,
+				96261EB62B848DF400BE5610 /* CategoryCollectionViewCell.swift */,
 			);
 			path = MedicinePage;
 			sourceTree = "<group>";
@@ -428,11 +434,13 @@
 				CE9269202B7E34D20039A927 /* ProtoTableViewCell.swift in Sources */,
 				CE3507FF2B6904CB007FE913 /* TabBarController.swift in Sources */,
 				CE3507F62B68F9CA007FE913 /* MapPageViewController.swift in Sources */,
+				96261EB72B848DF400BE5610 /* CategoryCollectionViewCell.swift in Sources */,
 				CE3507EE2B679A15007FE913 /* AlarmPageViewController.swift in Sources */,
 				CE9269242B80A09F0039A927 /* AlarmMakerViewController.swift in Sources */,
 				CE3507FA2B68F9E5007FE913 /* MedicinePageViewController.swift in Sources */,
 				CE99B9732B65183C00314973 /* AppDelegate.swift in Sources */,
 				CE3508052B690AA4007FE913 /* ViewController.swift in Sources */,
+				96261EB52B848DD500BE5610 /* CategoryViewController.swift in Sources */,
 				CE99B9752B65183C00314973 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

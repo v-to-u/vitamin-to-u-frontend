@@ -6,23 +6,29 @@
 //
 
 import UIKit
-import GoogleMaps
-import GooglePlaces
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    // AppDelegate.swift
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
-        // Google Map API
-        GMSServices.provideAPIKey("API-KEY")
-        GMSPlacesClient.provideAPIKey("API-KEY")
-        
+        // MedicinePageViewController 인스턴스 생성
+        let medicinePageVC = MedicinePageViewController()
+
+        // 내비게이션 컨트롤러에 MedicinePageViewController를 루트 뷰 컨트롤러로 설정
+        let navController = UINavigationController(rootViewController: medicinePageVC)
+
+        // 윈도우 설정
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
+
         return true
     }
+
 
     // MARK: UISceneSession Lifecycle
 
@@ -37,7 +43,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
-
